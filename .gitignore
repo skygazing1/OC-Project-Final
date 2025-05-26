@@ -1,0 +1,18 @@
+# Virtual environment
+venv/
+.venv/
+
+# Byte-code files
+__pycache__/
+*.pyc
+
+# Environment variables file
+.env
+
+# Database file
+*.db
+*.sqlite
+
+# Other temporary files
+*.tmp
+*.log 
