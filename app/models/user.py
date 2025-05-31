@@ -17,6 +17,10 @@ class User(Base):
     is_registered = Column(Boolean, default=False)
     reminder_sent = Column(Boolean, default=False)
     feedback_submitted = Column(Boolean, default=False)
+    receive_reminders = Column(Boolean, default=False)
+    reminder_sent_week = Column(Boolean, default=False)
+    reminder_sent_3days = Column(Boolean, default=False)
+    reminder_sent_1day = Column(Boolean, default=False)
     
     def __repr__(self):
         return f"<User {self.full_name} ({self.platform})>" 
